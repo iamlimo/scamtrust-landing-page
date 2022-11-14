@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.faq-wrapper{
+    margin: 0px 80px;
+}
+
+.faq-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 30px 0px 30px;
+}
+
+.faq-title{
+    color: #fff;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 50px;
+    padding: 50px 0px;
+}
+
+.faq-input{
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 70%;
+    outline: none;
+    padding: 12px 75px 12px 25px;
+    font-size: 18px;
+    text-align: left;
+    padding: 30px 0px 30px 50px;
+}
+
+.faq-input::placeholder{
+    color: grey;
+}
+
+.faq-accordion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0px 120px 0px;
+}
+.acc-con{
+    margin: 10px 200px;
+    width: 70vw;
+    background-color: #353935;
+    color: #fff;
+}
+.acc-icon{
+    background-color: #f6d645;
+    color: #fff;
+    padding: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.typography{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 20px 0px;
+}
+
+.faq-tail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 150px 0px;
+}
+.tail-left{
+    width: 40vw;
+}
+/* .faq-img{
+
+} */
+.tail-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 60vw;
+}
+.tail-title{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px 0px;
+}
+.tail-words{
+    width: 70%;
+}
+.tail-btn{
+    color: #fff;
+    padding: 23px 47px;
+    border-radius: 5px;
+    border: none;
+    margin: 25px 0px;
+    background: linear-gradient(97.83deg, #01306B 10.93%, #0357BF 101.58%);
+    font-size: 18px;
+    font-weight: 700;
+}
+.tail-btn:hover{
+    border-radius: 15px;
+    background: #0357BF;
+}
+.download{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px 0px 0px -21px;
+}
+.down-btn{
+    width: 190px;
+    height: 65px;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 15px;
+}
+.t-btn-word{
+    font-weight: 500;
+    font-size: 16px;
+    text-align: left;
+}
+.t-btn-words{
+    font-weight: 600;
+    font-size: 18px;
+    text-align-last: left;
+}

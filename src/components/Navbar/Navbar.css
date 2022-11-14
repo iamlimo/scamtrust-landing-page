@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-con{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 80px;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-logo{
+    margin-top: 10px;
+}
+.btn{
+    color: #ffff;
+    padding: 23px 47px;
+    border-radius: 5px;
+    border: none;
+    margin: 0px 5px;
+    background: linear-gradient(97.83deg, #01306B 10.93%, #0357BF 101.58%);
+    font-size: 18px;
+    font-weight: 700;
+}
+.reg-btn:hover{
+    border-radius: 15px;
+    background: #0357BF;
+}
+.log-btn{
+    background: none;
+}
+.log-btn:hover{
+    color: green;
+}
