@@ -2,9 +2,17 @@ import React from 'react'
 import './Footer.css'
 import {HiArrowRight} from 'react-icons/hi'
 import { Link } from 'react-router-dom'
+import {ImFacebook} from 'react-icons/im'
+import {ImTwitter} from 'react-icons/im'
+import {ImLinkedin2} from 'react-icons/im'
+import {FaInstagram} from 'react-icons/fa'
+import {TbMinusVertical} from 'react-icons/tb'
 
 
 const Footer = () => {
+
+  const year = new Date().getFullYear()
+
   return (
    <div className='foo-wrapper'>
     <div className='foo-con'>
@@ -27,6 +35,19 @@ const Footer = () => {
         </div>
     </div>
     <hr />
+    <div className="foo-bottom">
+      <div className="foo-btm-left">
+        <a className='foo-socials' href='#'><ImFacebook /></a>
+        <a className='foo-socials' href='#'><ImTwitter /></a>
+        <a className='foo-socials' href='#'><ImLinkedin2 /></a>
+        <a className='foo-socials' href='#'><FaInstagram /></a>
+      </div>
+      <div className="foo-btm-right">
+        <p className='foo-btm-words'>{year}<span className='foo-blue'>
+          Blueprints Pathway</span>
+          <TbMinusVertical className='line-icon'/>All Rights Reserved</p>
+      </div>
+    </div>
    </div> 
   )
 }

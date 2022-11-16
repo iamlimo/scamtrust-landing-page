@@ -8,6 +8,7 @@ import {faq} from '../../faqItem'
 import Google from '../../Assets/Google.png'
 import Apple from '../../Assets/Apple.png'
 import FaqImg from '../../Assets/faq-img.png'
+import Footer from '../Footer/Footer';
 
 
 const Faq = () => {
@@ -42,7 +43,7 @@ const Faq = () => {
           })}
 
         </div>
-        <hr />
+        <hr className='hr'/>
         </div>
 
                
@@ -76,6 +77,8 @@ const Faq = () => {
             </div>
           </div>
         </div>
+        <hr className='hr hr-btm' />
+        <Footer />
     </div>
   )
 }

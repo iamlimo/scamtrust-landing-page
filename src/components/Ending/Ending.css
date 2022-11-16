@@ -9,7 +9,8 @@
     margin: 60px 0px;
     /* background-image: url("../../Assets/back-2.png");
     background-repeat: no-repeat;
-    background-position: 0px 0px; */
+    background-position: 0px 0px;
+    background-blend-mode: multiply; */
 }
 .end title{
     display: flex;

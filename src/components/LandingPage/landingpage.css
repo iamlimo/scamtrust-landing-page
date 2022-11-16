@@ -4,25 +4,25 @@
 }
 
 
-.intro-con{
+.land-con{
     background-image: url("../../Assets/spiral.png");
     background-repeat: no-repeat;
     background-position: center;
 }           
   
-.intro{
+.land{
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: #ffff;
-    padding: 0px 60px 0px 80px;
+    padding: 0px 80px 0px 80px;
 }    
 
-.intro-left{
+.land-left{
     width: 40vw;
 }
 
-.intro-title {
+.land-title {
     font-weight: 800;
     font-size: 30px;
     line-height: 75px;
@@ -32,13 +32,13 @@
 .mid-h1{
     color: #448feb;
 }
-.intro-words{
+.land-words{
     margin-top: 20px;
     line-height: 35px;
     font-weight: 400;
 }
 
-.intro-right{
+.land-right{
     width: 60vw;
    margin: 20px 0px 0px 0px;
 }
@@ -55,7 +55,7 @@
     margin: 25px 0px 0px 130px;
 }
 
-.intro-img{
+.land-img{
    align-items: center;
    margin-top: 50px;
 }
@@ -119,55 +119,13 @@
 
 @media (max-width: 768px) {
 
-          /* NAVBAR */
-
-.nav{
-    display: flex;
-    align-content: center;
-    justify-content: space-between;
-    padding: 60px 50px 0px 50px;
-    color: #ffff;
-}    
-
-.nav-right{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.btn{
-    color: #ffff;
-    padding: 23px 47px;
-    border-radius: 5px;
-    border: none;
-    margin: 0px 5px;
-    background: linear-gradient(97.83deg, #01306B 10.93%, #0357BF 101.58%);
-    font-size: 18px;
-    font-weight: 700;
-}
-
-.log-btn{
-    background: none;
-}
-
-.log-btn:hover{
-    color: green;
-}
-
-.reg-btn:hover{
-    border-radius: 15px;
-    background: #0357BF;
-}
-
-           /* INTRO */
-
-.intro-con{
+.land-con{
     background-image: url("../../Assets/spiral.png");
     background-repeat: no-repeat;
     background-position: center;
 }           
   
-.intro{
+.land{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -175,11 +133,11 @@
     padding: 50px 35px 0px 35px;
 }    
 
-.intro-left{
+.land-left{
     width: 60vw;
 }
 
-.intro-title {
+.land-title {
     font-weight: 600;
     font-size: 17px;
     line-height: 45px;
@@ -189,13 +147,13 @@
 .mid-h1{
     color: #448feb;
 }
-.intro-words{
+.land-words{
     margin-top: 20px;
     line-height: 35px;
     font-weight: 400;
 }
 
-.intro-right{
+.land-right{
     width: 40vw;
     margin: 20px 0px 0px 0px;
 }
@@ -212,7 +170,7 @@
     margin: 25px 0px 0px 0px;
 }
 
-.intro-img{
+.land-img{
    align-items: center;
    margin: 50px 0px 0px 0px;
    height: 375px;
@@ -282,61 +240,14 @@
 
 @media (max-width: 480px) {
 
-        /* NAVBAR */
-
-.nav{
-  display: flex;
-  align-content: center;
-  justify-content: space-between;
-  padding: 50px 30px 0px 30px;
-  color: #ffff;
-}    
-
-.nav-logo{
-    height: 50px;
-    width: 75px;
-}
-
-.nav-right{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.btn{
-  color: #ffff;
-  padding: 15px 15px;
-  border-radius: 5px;
-  border: none;
-  margin: 0px 15px;
-  background: linear-gradient(97.83deg, #01306B 10.93%, #0357BF 101.58%);
-  font-size: 16px;
-  font-weight: 500;
-}
-
-.log-btn{
-  background: none;
-}
-
-.log-btn:hover{
-  color: green;
-}
-
-.reg-btn:hover{
-  border-radius: 15px;
-  background: #0357BF;
-}
-
-         /* INTRO */
-
-.intro-con{
+.land-con{
   background-image: url("../../Assets/spiral.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 1500px;
 }           
 
-.intro{
+.land{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -345,11 +256,11 @@
   padding: 50px 25px 0px 25px;
 }    
 
-.intro-left{
+.land-left{
   width: 100%;
 }
 
-.intro-title {
+.land-title {
   font-weight: 500;
   font-size: 15px;
   line-height: 40px;
@@ -359,19 +270,19 @@
 .mid-h1{
   color: #448feb;
 }
-.intro-words{
+.land-words{
   margin-top: 20px;
   line-height: 30px;
   font-weight: 300;
   font-size: 18px;
 }
 
-.intro-right{
+.land-right{
     display: flex;
     align-items: center;
     justify-content: center;
-  width: 100%;
-  margin: 20px 10px 0px 10px;
+    width: 100%;
+    margin: 20px 10px 0px 10px;
 }
 
 .circle{
@@ -386,7 +297,7 @@
   margin: 25px 0px 0px 0px;
 }
 
-.intro-img{
+.land-img{
  align-items: center;
  margin: 50px 0px 0px 0px;
  height: 375px;

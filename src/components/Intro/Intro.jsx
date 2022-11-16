@@ -4,11 +4,11 @@ import spiralDot from '../../Assets/spiral-dot.png'
 import videoImg from '../../Assets/video.png'
 import { VscPlayCircle } from "react-icons/vsc";
 
-const About = () => {
+const Intro = () => {
   return (
-    <div className='about-con'>
-        <div className='about-top'>
-            <p className='about-title'>How it works</p>
+    <div className='intro-con'>
+        <div className='intro-top'>
+            <p className='intro-title'>How it works</p>
             <div className='img-div'>
             <img className='spiral-img' src={spiralDot } alt="..." />
             </div>
@@ -56,7 +56,7 @@ const About = () => {
         </div>
 
                         {/* BOTTOM */}
-        <div className='about-bottom'>
+        <div className='intro-bottom'>
             <div className="left">
                 <p className='btm-title'>
                     <span style={{color: '#f6d645'}}>Do not </span>
@@ -84,4 +84,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Intro

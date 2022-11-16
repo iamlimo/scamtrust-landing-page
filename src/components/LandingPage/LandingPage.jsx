@@ -11,22 +11,22 @@ import { BsArrowRight } from "react-icons/bs";
 const LandingPage = () => {
   return (
     <>
-    <div className='intro-con'>             
-    <div className='intro'>
-        <div className='intro-left'>
-            <div className='intro-title'>
+    <div className='land-con'>             
+    <div className='land'>
+        <div className='land-left'>
+            <div className='land-title'>
                 <h1>Secure all </h1>
                 <h1 className='mid-h1'>Transactions</h1>
                 <h1>with us today</h1>
             </div>
-            <p className='intro-words'>
+            <p className='land-words'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In leo leo consequat sit purus. Cras integeruuuu bibendum velit fermentum feugiat auctor sed idojo.
             </p>
         </div>
 
-        <div className='intro-right'>
+        <div className='land-right'>
             <div className='circle'>
-        <img className='intro-img' src={introImg} alt='...' />
+        <img className='land-img' src={introImg} alt='...' />
             </div>
         </div>
     </div>

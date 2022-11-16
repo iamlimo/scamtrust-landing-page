@@ -37,3 +37,82 @@
 .log-btn:hover{
     color: green;
 }
+
+@media (max-width: 768px) {
+    .nav-con{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 50px 50px;
+    }
+    .nav-right{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nav-logo{
+        margin-top: 10px;
+        height: 50px;
+        width: 100px;
+    }
+    .btn{
+        color: #ffff;
+        padding: 18px 30px;
+        border-radius: 5px;
+        border: none;
+        margin: 0px 5px;
+        background: linear-gradient(97.83deg, #01306B 10.93%, #0357BF 101.58%);
+        font-size: 17px;
+        font-weight: 600;
+    }
+    .reg-btn:hover{
+        border-radius: 15px;
+        background: #0357BF;
+    }
+    .log-btn{
+        background: none;
+    }
+    .log-btn:hover{
+        color: green;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .nav-con{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 50px 20px;
+    }
+    .nav-right{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nav-logo{
+        margin-top: 10px;
+        height: 35px;
+        width: 70px;
+    }
+    .btn{
+        color: #ffff;
+        padding: 12px 20px;
+        border-radius: 5px;
+        border: none;
+        margin: 0px 5px;
+        background: linear-gradient(97.83deg, #01306B 10.93%, #0357BF 101.58%);
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .reg-btn:hover{
+        border-radius: 15px;
+        background: #0357BF;
+    }
+    .log-btn{
+        background: none;
+    }
+    .log-btn:hover{
+        color: green;
+    }
+}
