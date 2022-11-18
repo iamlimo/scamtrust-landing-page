@@ -1,6 +1,5 @@
 import React from 'react'
 import './Ending.css'
-// import itemImg from "../Assets/item-img.png"
 import {MdVerified} from "react-icons/md"
 import { item } from '../../ending-item'
 
@@ -32,8 +31,8 @@ const Ending = () => {
         <div className="end-cta">
             <p className='cta-title'>ScamTrust</p>
             <div className='cta-action'>
-                <p className='cta-word'>Ready to get started?</p>
-                <button className='cta-btn'>Register</button>
+                <p className='cta-word'>Want to know more?</p>
+                <button className='cta-btn'>Join our Community</button>
             </div>
         </div>
       <hr />

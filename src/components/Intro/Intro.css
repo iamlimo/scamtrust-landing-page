@@ -4,7 +4,7 @@
 }
 
 .intro-con{
-    padding: 125px 0px 0px 80px;
+    padding: 0px 80px 0px 80px;
     color: #fff;
 }
 
@@ -128,7 +128,7 @@
 
 @media (max-width: 768px) {
     .intro-con{
-        padding: 120px 20px 0px 20px;
+        padding: 80px 20px 0px 20px;
         color: #fff;
     }
     
@@ -259,7 +259,8 @@
 
 @media (max-width: 480px) {
     .intro-con{
-        padding: 25px 20px 40px 20px;
+        padding: 0px 20px 50px 20px;
+        margin: -80px 0px 0px 0px;
         color: #fff;
     }
     

@@ -4,7 +4,7 @@ import introImg from '../../Assets/phones.png'
 import Apple from '../../Assets/Apple.png'
 import Google from '../../Assets/Google.png'
 import scan from '../../Assets/qr-code.png'
-import { BsArrowRight } from "react-icons/bs";
+// import { BsArrowRight } from "react-icons/bs";
 
 
 
@@ -50,14 +50,14 @@ const LandingPage = () => {
               </button>
             </div>
                       {/* SCAN DOWNLOAD */}
-             <div className='scan'>
+             <button className='scan'>
                 <p className='scan-words'>
-                    Scan to download ScamTrust
-                    <br />
-                    <BsArrowRight className='arrow-ico' />
+                    Join our community
+                    {/* <br />
+                    <BsArrowRight className='arrow-ico' /> */}
                 </p>
                 <img className='scan-img' src={scan} alt="..." />
-            </div>     
+            </button>     
         </div>
     </div>
 

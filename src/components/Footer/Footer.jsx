@@ -37,10 +37,10 @@ const Footer = () => {
     <hr />
     <div className="foo-bottom">
       <div className="foo-btm-left">
-        <a className='foo-socials' href='#'><ImFacebook /></a>
-        <a className='foo-socials' href='#'><ImTwitter /></a>
-        <a className='foo-socials' href='#'><ImLinkedin2 /></a>
-        <a className='foo-socials' href='#'><FaInstagram /></a>
+        <a className='foo-socials' href='#' target='_blank' rel="noreferrer"><ImFacebook /></a>
+        <a className='foo-socials' href='https://twitter.com/scamtrust?s=21&t=6fCB-zrWemILkeAJuqUN-w' target='_blank' rel="noreferrer"><ImTwitter /></a>
+        <a className='foo-socials' href='#' target='_blank' rel="noreferrer"><ImLinkedin2 /></a>
+        <a className='foo-socials' href='https://www.instagram.com/scamtrust' target='_blank' rel="noreferrer"><FaInstagram /></a>
       </div>
       <div className="foo-btm-right">
         <p className='foo-btm-words'>{year}<span className='foo-blue'>

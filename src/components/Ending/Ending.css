@@ -7,10 +7,11 @@
     color: #fff;
     padding: 50px 80px;
     margin: 60px 0px;
-    /* background-image: url("../../Assets/back-2.png");
+    background-image: url("../../Assets/back-2.png");
     background-repeat: no-repeat;
     background-position: 0px 0px;
-    background-blend-mode: multiply; */
+    background-blend-mode: lighten;
+    background-color: #353935;
 }
 .end title{
     display: flex;
@@ -90,18 +91,18 @@
     justify-content: space-between;
 }
 .cta-word{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
     padding: 0px 40px;
 }
 .cta-btn{
     color: #ffff;
-    padding: 23px 47px;
+    padding: 23px 60px;
     border-radius: 5px;
     border: none;
     margin: 0px 5px;
     background: linear-gradient(97.83deg, #01306B 10.93%, #0357BF 101.58%);
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
 }
 .cta-btn:hover{
@@ -200,19 +201,19 @@
         justify-content: space-between;
     }
     .cta-word{
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 600;
-        padding: 0px 40px;
+        padding: 0px 10px;
     }
     .cta-btn{
         color: #ffff;
-        padding: 23px 47px;
+        padding: 23px 25px;
         border-radius: 5px;
         border: none;
         margin: 0px 5px;
         background: linear-gradient(97.83deg, #01306B 10.93%, #0357BF 101.58%);
-        font-size: 18px;
-        font-weight: 700;
+        font-size: 16px;
+        font-weight: 600;
     }
     .cta-btn:hover{
         border-radius: 15px;
@@ -325,7 +326,7 @@
         border: none;
         margin: 10px 15px;
         background: linear-gradient(97.83deg, #01306B 10.93%, #0357BF 101.58%);
-        font-size: 19px;
+        font-size: 20px;
         font-weight: 500;
     }
     .cta-btn:hover{

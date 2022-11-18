@@ -7,7 +7,8 @@
 .land-con{
     background-image: url("../../Assets/spiral.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 0px -70px;
+    padding: 0px 0px 200px 0px;
 }           
   
 .land{
@@ -62,7 +63,7 @@
 
 .btm-div{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     margin: 0px 80px;
 }
@@ -71,7 +72,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 0px 0px 0px;
+    margin: 110px 0px 0px 0px;
 }
 .download-btn{
     width: 210px;
@@ -97,14 +98,26 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 65px 50px 70px 0px;
+    margin: 70px 0px 0px 0px;
+    padding: 4px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    width: 300px;
+    background: none;
+}
+.scan:hover{
+    background: #fff;
 }
 
 .scan-words{
-    font-size: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
     font-weight: 600;
-    color: #f6d645;
     width: 200px;
+    padding: 0px 20px;
+    color: #f6d645;
 }
 .arrow-ico{
     color: #fff;
@@ -113,8 +126,10 @@
 .scan-img{
     background-color: #fff;
     padding: 12px 10px 10px 10px;
-    border-radius: 15px;
-    margin-bottom: 30px;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    height: 85px;
+    width: 85px;
 }
 
 @media (max-width: 768px) {
@@ -122,7 +137,7 @@
 .land-con{
     background-image: url("../../Assets/spiral.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 0px -110px;
 }           
   
 .land{
@@ -181,14 +196,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 40px;
+    margin: 0px 20px;
 }
 
 .dwn-div{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 0px 0px 0px;
+    margin: 110px 0px 0px 0px;
 }
 .download-btn{
     width: 175px;
@@ -213,16 +228,24 @@
 .scan{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin: 65px 50px 70px 0px;
+    justify-content: center;
+    margin: 70px 50px 0px 0px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    width: 225px;
+    background: none;
+}
+.scan:hover{
+    background: #fff;
 }
 
 .scan-words{
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 600;
     color: #f6d645;
-    width: 150px;
-    margin-left: 20px;
+    width: 100px;
+    margin-left: 0px;
 }
 .arrow-ico{
     color: #fff;
@@ -230,9 +253,11 @@
 }
 .scan-img{
     background-color: #fff;
-    padding: 12px 10px 10px 10px;
-    border-radius: 15px;
-    margin-bottom: 50px;
+    padding: 8px 6px 6px 6px;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    height: 75px;
+    width: 75px;
 }
 
 }
@@ -342,16 +367,22 @@
 .scan{
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin: 65px 50px 0px 0px;
+  justify-content: center;
+  margin: 50px 0px 0px 0px;
+  padding: 5px 10px;
+  background: none;
+}
+.scan:hover{
+    background: #fff;
 }
 
 .scan-words{
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   color: #f6d645;
   width: 150px;
-  margin-left: 20px;
+  margin-left: 0px;
+  text-align: left;
 }
 .arrow-ico{
   color: #fff;
@@ -359,8 +390,8 @@
 }
 .scan-img{
   background-color: #fff;
-  padding: 12px 10px 10px 10px;
-  border-radius: 15px;
+  padding: 8px 6px 6px 6px;
+  border-radius: 10px;
   margin-bottom: 0px;
 }
     
