@@ -9,9 +9,16 @@ import Google from '../../Assets/Google.png'
 import Apple from '../../Assets/Apple.png'
 import FaqImg from '../../Assets/faq-img.png'
 import Footer from '../Footer/Footer';
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 
 const Faq = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
   return (
     <div className='faq-wrapper'>
       <Navbar />

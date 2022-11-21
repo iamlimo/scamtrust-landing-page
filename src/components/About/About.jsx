@@ -10,8 +10,16 @@ import img6 from '../../Assets/img-6.png'
 import img7 from '../../Assets/img-7.png' 
 import midImg from '../../Assets/faq-img.png'
 import aboutItems from '../../aboutItems'
+import { useEffect } from 'react'
+import { useLocation } from 'react-router-dom'
+
 
 const About = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
   return (
     <div id='about-page'>
       <Navbar />
