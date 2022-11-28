@@ -18,10 +18,10 @@ const Intro = () => {
                     <p className='figure'>1</p>
                     <div>
                         <p className='point-title'>
-                            Lorem Ipsum mffkkxf
+                            Initiate a Transaction
                         </p>
                         <p className='point-words'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In leo leo consequat sit purus. 
+                        Agree on a price and the vendor accepts the transaction.
                         </p>
                         <a className='point-link'>Learn more</a>
                     </div>
@@ -31,10 +31,10 @@ const Intro = () => {
                     <p className='figure'>2</p>
                     <div>
                         <p className='point-title'>
-                            Lorem Ipsum mffkkxf
+                             Make payments 
                         </p>
                         <p className='point-words'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In leo leo consequat sit purus. 
+                        Secure your payment with the Scamtrust wallet and Deliver the product
                         </p>
                         <a className='point-link' href="#">Learn more</a>
                     </div>
@@ -44,10 +44,10 @@ const Intro = () => {
                     <p className='figure'>3</p>
                     <div>
                         <p className='point-title'>
-                            Lorem Ipsum mffkkxf
+                           Deliver & Complete transaction
                         </p>
                         <p className='point-words'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In leo leo consequat sit purus. 
+                        Pay after inspecting your purchase and completing the transaction.
                         </p>
                         <a className='point-link' href="#">Learn more</a>
                     </div>
@@ -64,7 +64,7 @@ const Intro = () => {
                     <span style={{color: '#5597fa'}}> ScamTrust</span>
                 </p>
                 <p className='btm-words'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In leo leo consequat sit purus. Cras integeruuuu bibendum velit fermentum feugiat auctor sed idojo.
+                We are here to bridge the gap between financial transactions. Your Financial securiry is our priority.  Enjoy a safe and verify free transaction.
                 </p>
                 <a className='point-link' href="#">Learn more</a>
             </div>

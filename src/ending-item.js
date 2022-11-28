@@ -4,19 +4,19 @@ export const item = [
     {
         id: 1,
         img: itemImg,
-        title: "Verify the vendor",
-        words: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In leo leo consequat sit purus. "
+        title: "Safety",
+        words: "Never part with your money or product until all terms have been met."
     },
     {
         id: 2,
         img: itemImg,
-        title: "Verify the vendor",
-        words: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In leo leo consequat sit purus. "
+        title: "Transparency",
+        words: "Provides transaction transparency between vendors and customers"
     },
     {
         id: 3,
         img: itemImg,
-        title: "Verify the vendor",
-        words: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In leo leo consequat sit purus. "
+        title: "Credibility",
+        words: "Verify vendors before payment. Never part with your money or product until all terms have been met."
     }
 ]

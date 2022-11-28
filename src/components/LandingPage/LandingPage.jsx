@@ -20,7 +20,7 @@ const LandingPage = () => {
                 <h1>with us today</h1>
             </div>
             <p className='land-words'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In leo leo consequat sit purus. Cras integeruuuu bibendum velit fermentum feugiat auctor sed idojo.
+            Protect yourself today from payment fraud and scams in online transactions. Enjoy secure, fraud-free transactions today.
             </p>
         </div>
 

@@ -20,6 +20,7 @@ const About = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
+
   return (
     <div id='about-page'>
       <Navbar />
@@ -32,7 +33,7 @@ const About = () => {
               Our Mission
             </p>
             <p className='ab-top-words'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In leo leo consequat sit purus. Cras integer bibendum velit fermentum feugiat auctor sed id orci. Mauris et lorem in nunc sed sit urna. Libero massa tortor magna cursus suspendisse.
+            At ScamTrust, we aim to solve the problem of customers doubting the credibility of businesses due to their past experiences with fraudulent or dubious vendors by offering a safe platform, assisting businesses in establishing credibility, and fostering transparent transactions between customers and authentic vendors.
             </p>
           </div>          
           <div className="ab-top-right">
@@ -63,13 +64,10 @@ const About = () => {
               Our Story
             </p>
             <p className='ab-mid-words'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In leo leo consequat sit purus. Cras integer bibendum velit fermentum feugiat auctor sed id orci. Mauris et lorem in nunc sed sit urna. Libero massa tortor magna cursus suspendisse.
+            We are a close-knit team of individuals who strongly think that the world should be fraud-free. In order to assist you to manage your financial transactions without the usual inconveniences, we have designed the most sophisticated and reliable digital platform in the world. We see an opportunity in using technology to solve this problem.
             <br />
             <br />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In leo leo consequat sit purus. Cras integer bibendum velit fermentum feugiat auctor sed id orci. Mauris et lorem in nunc sed sit urna. Libero massa tortor magna cursus suspendisse.
-            <br />
-            <br />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In leo leo consequat sit purus. Cras integer bibendum velit fermentum feugiat auctor sed id orci. Mauris et lorem in nunc sed sit urna. Libero massa tortor magna cursus suspendisse.
+            We think that every party to a transaction has the right to be involved in the payment process throughout the duration of the transaction. We have a responsibility to make sure that this right is used and that online payment is developed to the highest standard possible.
             </p>
           </div>
         </div>
@@ -79,10 +77,10 @@ const About = () => {
         <div className="about-bottom">
           <div className="ab-bottom-top">
             <p className='ab-bottom-title'>
-            The Team
+             Meet The Game Changers
             </p>
             <p className='ab-bottom-words'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In leo leo consequat sit purus. Cras integer bibendum velit fermentum feugiat auctor sed id orci. Mauris et lorem in nunc sed sit urna. Libero massa tortor magna cursus suspendisse.
+            we are strong believers in completely eradicating payment fraud, not just peer-to-peer fraud so that everyone and everywhere can interact with complete trust.
             </p>
           </div>
           <div className="ab-bottom-bottom">

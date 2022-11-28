@@ -116,6 +116,10 @@
     width: 50px;
     margin: 15px;
 }
+.foo-socials:hover{
+    background-color: #5597fa;
+    color: #fff;
+}
 .foo-btm-words{
     color: #a8aaa8;
     font-size: 18px;

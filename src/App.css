@@ -1,0 +1,17 @@
+.loader-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45vh;
+}
+
+.loader-img{
+    position: relative;
+    animation: fade 4s infinite ease;
+  }
+  @keyframes fade {
+    0%   {opacity: 1;}
+    25% {opacity: 0.5;}
+    50% {opacity: 1;}
+    75% {opacity: 0.5;}
+  }

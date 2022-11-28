@@ -145,6 +145,7 @@
     align-items: flex-start;
     justify-content: center;
     width: 40vw;
+    margin-bottom: 75px;
 }
 .ab-mid-title{
     text-align: left;
@@ -306,6 +307,7 @@
     align-items: center;
     justify-content: center;
     width: 50vw;
+    margin: 50px 0px 0px 0px;
 }
 .ab-mid-title{
     text-align: center;
