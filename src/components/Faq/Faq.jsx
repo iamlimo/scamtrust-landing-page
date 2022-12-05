@@ -1,24 +1,33 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import './Faq.css'
-import { Accordion, AccordionSummary, AccordionDetails} 
-from '@mui/material';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import {faq} from '../../faqItem'
 import Google from '../../Assets/Google.png'
 import Apple from '../../Assets/Apple.png'
 import FaqImg from '../../Assets/faq-img.png'
 import Footer from '../Footer/Footer';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import { useState } from 'react';
+import BuyerFaq from './BuyerFaq';
+import VendorFaq from './VendorFaq'
 
 
 const Faq = () => {
   const { pathname } = useLocation();
 
+  const [faq, setFaq] = useState(<BuyerFaq />);
+
+   const handleClick = () => {
+    setFaq(<BuyerFaq />); 
+   }
+   const handleClick2 = () => {
+    setFaq(<VendorFaq />)
+   }
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
+
   return (
     <div className='faq-wrapper'>
       <Navbar />
@@ -27,29 +36,29 @@ const Faq = () => {
             <p className='faq-title'>Frequently Asked Questions (FAQs)</p>
             <input className='faq-input' placeholder='Search for a question...' />
         </div>
-        <div className="faq-accordion">
-          
-          {faq.map((item) => {
-            return(
-        <Accordion className='acc-con' key={item.id}>
-                <AccordionSummary 
-                sx={{ bgcolor: "#353935", color: "white" }}
-                expandIcon={<ExpandMoreIcon className='acc-icon' />}>
-                    <p className='typography'>
-                      {item.question}
-                    </p>
-                </AccordionSummary>
-                <AccordionDetails sx={{ bgcolor: "#353935", 
-                     color: "white" }}>
-                    <p className='acc-content'>
-                    {item.answer}
-                    </p>
-                </AccordionDetails>
-            </Accordion>
-            )
-          })}
+        <div>
+    </div>
 
-        </div>
+          <div className='faqTab'>
+            <button 
+            className='faq-btn'
+            onClick={handleClick}
+            autoFocus
+            >
+              Customer
+              </button>
+
+            <button
+            className='faq-btn'
+            onClick={handleClick2}
+            >
+              Vendor
+              </button>
+          </div>
+
+      <div>
+        {faq}
+      </div>
         <hr className='hr'/>
         </div>
 
@@ -90,4 +99,4 @@ const Faq = () => {
   )
 }
 
-export default Faq
+export default Faq;
