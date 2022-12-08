@@ -5,6 +5,7 @@ import Home from './components/Home';
 import About from './components/About/About';
 import logo from './Assets/loader-img.png'
 import './App.css'
+import KnowMore from './components/knowMore/KnowMore';
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/faq' element={<Faq />} />
         <Route path='/about' element={<About />} />
+        <Route path='/know-more' element={<KnowMore />} />
       </Routes>
 
      }

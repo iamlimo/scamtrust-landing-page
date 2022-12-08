@@ -1,70 +1,46 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Navbar from '../Navbar/Navbar'
-import './Faq.css'
+import './KnowMore.css'
+import Footer from '../Footer/Footer'
 import Google from '../../Assets/Google.png'
 import Apple from '../../Assets/Apple.png'
 import FaqImg from '../../Assets/milli-1.png'
-import Footer from '../Footer/Footer';
-import { useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
-import { useState } from 'react';
-import BuyerFaq from './BuyerFaq';
-import VendorFaq from './VendorFaq'
+import CustomerInfo from './CustomerInfo'
+import VendorInfo from './VendorInfo'
 
+const KnowMore = () => {
+  const [show, setShow] = useState(<CustomerInfo />);
 
-const Faq = () => {
-  const { pathname } = useLocation();
+  const handleCus = () => {
+    setShow(<CustomerInfo />)
+  }
 
-  const [faq, setFaq] = useState(<BuyerFaq />);
-
-   const handleClick = () => {
-    setFaq(<BuyerFaq />); 
-   }
-   const handleClick2 = () => {
-    setFaq(<VendorFaq />)
-   }
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
+  const handleVen = () => {
+    setShow(<VendorInfo />)
+  }
 
   return (
-    <div className='faq-wrapper'>
-      <Navbar />
-      <div className="faq-head">
-        <div className='faq-top'>
-            <p className='faq-title'>Frequently Asked Questions (FAQs)</p>
-            <input className='faq-input' placeholder='Search for a question...' />
-        </div>
-        <div>
-    </div>
+    <>
+        <Navbar />
+        <div className="info-con">
+          <div className="info-top">
+            <div className="info-btn-div">
+                <button
+                onClick={handleCus} 
+                className='info-btn'
+                autoFocus
+                >Customer</button>
 
-          <div className='faqTab'>
-            <button 
-            className='faq-btn'
-            onClick={handleClick}
-            autoFocus
-            >
-              Customer
-              </button>
+                <button 
+                onClick={handleVen} 
+                className='info-btn'
+                >
+                  Vendor</button>
+            </div> 
+                         {show}
+              </div>  
 
-            <button
-            className='faq-btn'
-            onClick={handleClick2}
-            >
-              Vendor
-              </button>
-          </div>
-
-      <div>
-        {faq}
-      </div>
-        <hr className='hr'/>
-        </div>
-
-               
-                      {/* BOTTOM */}
-
+                    {/* B O T T O M */}
         <div className="faq-tail">
           <div className="tail-left">
             <img className='faq-img' src={FaqImg} alt="..." />
@@ -96,8 +72,10 @@ const Faq = () => {
         
         <hr className='hr hr-btm' />
         <Footer />
-    </div>
+        </div>
+  
+    </>
   )
 }
 
-export default Faq;
+export default KnowMore;

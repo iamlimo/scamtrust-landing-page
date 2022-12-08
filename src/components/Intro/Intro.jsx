@@ -3,6 +3,7 @@ import './Intro.css'
 import spiralDot from '../../Assets/spiral-dot.png'
 import videoImg from '../../Assets/video.png'
 import { VscPlayCircle } from "react-icons/vsc";
+import { Link } from 'react-router-dom';
 
 const Intro = () => {
   return (
@@ -23,7 +24,7 @@ const Intro = () => {
                         <p className='point-words'>
                         Agree on a price and the vendor accepts the transaction.
                         </p>
-                        <a className='point-link'>Learn more</a>
+                        <Link className='point-link' to="/know-more">Learn more</Link>
                     </div>
                 </div>
 
@@ -36,7 +37,7 @@ const Intro = () => {
                         <p className='point-words'>
                         Secure your payment with the Scamtrust wallet and Deliver the product
                         </p>
-                        <a className='point-link' href="#">Learn more</a>
+                        <Link className='point-link' to="/know-more">Learn more</Link>
                     </div>
                 </div>
 
@@ -49,7 +50,7 @@ const Intro = () => {
                         <p className='point-words'>
                         Pay after inspecting your purchase and completing the transaction.
                         </p>
-                        <a className='point-link' href="#">Learn more</a>
+                        <Link className='point-link' to="/know-more">Learn more</Link>
                     </div>
                 </div>
             </div>
@@ -66,7 +67,7 @@ const Intro = () => {
                 <p className='btm-words'>
                 We are here to bridge the gap between financial transactions. Your Financial securiry is our priority.  Enjoy a safe and verify free transaction.
                 </p>
-                <a className='point-link' href="#">Learn more</a>
+                <Link className='point-link' to="/know-more">Learn more</Link>
             </div>
             <div className="right">
                 <img  className='video-img' src={videoImg} alt="..." />

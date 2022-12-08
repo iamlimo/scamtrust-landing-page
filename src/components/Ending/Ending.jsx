@@ -20,7 +20,6 @@ const Ending = () => {
             <div className="item-texts">
                 <p className='item-title'>{item.title}</p>
                 <p className='item-words'>{item.words}</p>
-                <a className='item-link' href="#">Learn more</a>
             </div>
         </div>
                 )

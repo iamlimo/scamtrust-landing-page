@@ -163,6 +163,10 @@
 .hr-btm{
     margin-bottom: 50px;
 }
+.faq-img{
+    width: 450px;
+    height: 450px;
+}
 
 @media (max-width: 768px) {
     .faq-wrapper{
