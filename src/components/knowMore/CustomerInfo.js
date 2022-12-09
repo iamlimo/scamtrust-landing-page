@@ -1,6 +1,6 @@
 import React from 'react'
 import './KnowMore.css'
-import cusImg from '../../Assets/cus-know-img.jpg'
+import cusImg from '../../Assets/customer-img.jpg'
 import {BsPhoneVibrate} from "react-icons/bs"
 import {MdOutlinePayments} from "react-icons/md"
 import {GoPackage} from "react-icons/go"

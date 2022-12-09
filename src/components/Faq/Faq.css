@@ -167,6 +167,9 @@
     width: 450px;
     height: 450px;
 }
+.download-link{
+    text-decoration: none;
+}
 
 @media (max-width: 768px) {
     .faq-wrapper{

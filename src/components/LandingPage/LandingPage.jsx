@@ -5,6 +5,7 @@ import Apple from '../../Assets/Apple.png'
 import Google from '../../Assets/Google.png'
 import scan from '../../Assets/qr-code.png'
 // import { BsArrowRight } from "react-icons/bs";
+import AndroidApk from '../../Assets/ScamTrust.apk'
 
 
 
@@ -34,6 +35,7 @@ const LandingPage = () => {
         <div className='btm-div'>        
                  {/* DOWNLOAD BUTTON */}
            <div className='dwn-div'>
+            <a className='download-link' href={AndroidApk}>
               <button className='g-btn download-btn'>
               <img src={Google} alt='...' />
               <span>
@@ -41,6 +43,9 @@ const LandingPage = () => {
                 <h1 className='btn-words'>Google Play</h1>
               </span>
               </button>
+              </a>
+
+              <a className='download-link' href="#">
               <button className='app-btn download-btn'>
                 <img src={Apple} alt='...' />
                 <span>
@@ -48,6 +53,7 @@ const LandingPage = () => {
                 <h1 className='btn-words'>App Store</h1>
                 </span>
               </button>
+              </a>
             </div>
                       {/* SCAN DOWNLOAD */}
              <button className='scan'>

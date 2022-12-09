@@ -10,6 +10,7 @@ import { useLocation } from 'react-router-dom';
 import { useState } from 'react';
 import BuyerFaq from './BuyerFaq';
 import VendorFaq from './VendorFaq'
+import AndroidApk from '../../Assets/ScamTrust.apk'
 
 
 const Faq = () => {
@@ -70,12 +71,15 @@ const Faq = () => {
             <img className='faq-img' src={FaqImg} alt="..." />
           </div>
           <div className="tail-right">
-            <p className='tail-title'>1 Million+ Customers</p>
+            <p className='tail-title'>Get protected by ScamTrust</p>
             <p className='tail-words'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In leo leo consequat sit purus. Cras integer bibendum velit fermentum feugiat auctor sed id orci. Mauris et lorem in nunc sed sit urna. Libero massa tortor magna cursus suspendisse.
+            An infrastructure that enforces two-party agreement
+             for your financial security is our priority.
             </p>
             <button className='tail-btn'>Register</button>
             <div className='download'>
+
+              <a className='download-link' href={AndroidApk}>
             <button className='g-btn down-btn'>
               <img src={Google} alt='...' />
               <span>
@@ -83,6 +87,9 @@ const Faq = () => {
                 <h1 className='t-btn-words'>Google Play</h1>
               </span>
               </button>
+              </a>
+
+              <a className='download-link' href="#">
               <button className='app-btn down-btn'>
                 <img src={Apple} alt='...' />
                 <span>
@@ -90,6 +97,8 @@ const Faq = () => {
                 <h1 className='t-btn-words'>App Store</h1>
                 </span>
               </button>
+              </a>
+
             </div>
           </div>
         </div>
