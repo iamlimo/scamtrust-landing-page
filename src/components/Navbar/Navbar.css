@@ -26,6 +26,7 @@
     background: linear-gradient(97.83deg, #01306B 10.93%, #0357BF 101.58%);
     font-size: 18px;
     font-weight: 700;
+    text-decoration: none;
 }
 .reg-btn:hover{
     border-radius: 15px;

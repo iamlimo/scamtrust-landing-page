@@ -17,6 +17,6 @@ export const item = [
         id: 3,
         img: itemImg,
         title: "Credibility",
-        words: "Verify vendors before payment. Never part with your money or product until all terms have been met."
+        words: "Verify vendors before payment."
     }
 ]

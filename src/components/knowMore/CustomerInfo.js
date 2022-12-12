@@ -38,7 +38,7 @@ const CustomerInfo = () => {
                        <p className='cus-title'>Receive your order</p>
                        <GoPackage className='know-icon' />
                       </div> 
-                       <p className='cus-words'>Receive and Confirm your order quantity.</p>
+                       <p className='cus-words'>Receive and Confirm your order quality.</p>
                     </div>
                     <div className="cus-content">
                      <div className="title-con">
