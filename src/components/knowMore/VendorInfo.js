@@ -10,7 +10,7 @@ const VendorInfo = () => {
     <div>
         <div className="info-top">
             <div className="info-intro">
-                <p className='info-intro-title'>Do you sell high-value products and services like land, cars, luxury goods, etc. but struggle with first-time buyers who don't trust you ?</p>
+                <p className='info-intro-title'>Do you sell value products or services, but struggle with first-time buyers who don’t trust you ?</p>
                 <p className='info-intro-words'>ScamTrust eliminates the issue of distrust, distance and transaction uncertainties, we help you and your customers secure payments, now you can concentrate on building a great brand.</p>
             </div>
 

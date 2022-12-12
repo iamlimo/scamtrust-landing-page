@@ -21,7 +21,7 @@ const LandingPage = () => {
                 <h1>with us today</h1>
             </div>
             <p className='land-words'>
-            Protect yourself today from payment fraud and scams in online transactions. Enjoy secure, fraud-free transactions today.
+            Protect yourself today from payment fraud and scams on online transactions. Enjoy secure, fraud-free transactions today.
             </p>
         </div>
 

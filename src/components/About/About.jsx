@@ -80,7 +80,7 @@ const About = () => {
              Meet The Game Changers
             </p>
             <p className='ab-bottom-words'>
-            we are strong believers in completely eradicating payment fraud, not just peer-to-peer fraud so that everyone and everywhere can interact with complete trust.
+            We are strong believers in completely eradicating payment fraud, not just peer-to-peer fraud so that everyone and everywhere can interact with complete trust.
             </p>
           </div>
           <div className="ab-bottom-bottom">

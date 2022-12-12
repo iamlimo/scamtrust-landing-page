@@ -49,8 +49,7 @@ const KnowMore = () => {
           <div className="tail-right">
             <p className='tail-title'>Get protected by ScamTrust</p>
             <p className='tail-words'>
-            An infrastructure that enforces two-party agreement
-             for your financial security is our priority.
+            An infrastructure that enforces two-party agreement. For your financial security is our priority.
             </p>
             <button className='tail-btn'>Register</button>
             <div className='download'>
