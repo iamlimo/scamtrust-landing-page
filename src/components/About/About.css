@@ -213,6 +213,8 @@
 .ab-position{
     font-size: 18px;
     font-weight: 300;
+    width: 170px;
+    text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -375,6 +377,8 @@
 .ab-position{
     font-size: 16px;
     font-weight: 300;
+    width: 150px;
+    text-align: center;
 }
 
 }
@@ -609,6 +613,8 @@
 .ab-position{
     font-size: 14px;
     font-weight: 200;
+    width: 100px;
+    text-align: center;
 }
 
 }

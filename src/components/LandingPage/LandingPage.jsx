@@ -4,7 +4,6 @@ import introImg from '../../Assets/phones.png'
 import Apple from '../../Assets/Apple.png'
 import Google from '../../Assets/Google.png'
 import scan from '../../Assets/qr-code.png'
-// import { BsArrowRight } from "react-icons/bs";
 import AndroidApk from '../../Assets/ScamTrust.apk'
 
 
@@ -59,8 +58,6 @@ const LandingPage = () => {
              <button className='scan'>
                 <p className='scan-words'>
                     Join our community
-                    {/* <br />
-                    <BsArrowRight className='arrow-ico' /> */}
                 </p>
                 <img className='scan-img' src={scan} alt="..." />
             </button>     

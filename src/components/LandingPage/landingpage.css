@@ -382,7 +382,7 @@
   font-weight: 600;
   color: #f6d645;
   width: 150px;
-  margin-left: 0px;
+  margin-left: 5px;
   text-align: left;
 }
 .arrow-ico{
@@ -391,9 +391,9 @@
 }
 .scan-img{
   background-color: #fff;
-  padding: 8px 6px 6px 6px;
+  padding: 8px 8px 6px 8px;
   border-radius: 10px;
-  margin-bottom: 0px;
+  margin: 0px 21px 0px 0px;
 }
     
 }

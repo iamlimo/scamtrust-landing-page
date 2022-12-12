@@ -31,7 +31,7 @@ const aboutItems = [
     {
         id: 5,
         img: img6,
-        name: "Ajoke Fisayo",
+        name: "Oke Fisayo",
         position: "Designer",
     },    
     {
