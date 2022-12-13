@@ -8,7 +8,7 @@ const aboutItems = [
         id: 1,
         img: img1,
         name: "Bankulee",
-        position: "C E O",
+        position: `C E O`,
     },    
     {
         id: 2,
@@ -30,16 +30,16 @@ const aboutItems = [
     },    
     {
         id: 5,
+        img: img8,
+        name: "Michael Olaniyan",
+        position: "Frontend Developer",
+    }, 
+    {
+        id: 6,
         img: img6,
         name: "Oke Fisayo",
         position: "Designer",
-    },    
-    {
-        id: 6,
-        img: img8,
-        name: "Lekan Eseyin",
-        position: "Designer",
-    },    
+    },       
     {
         id: 7,
         img: img1,

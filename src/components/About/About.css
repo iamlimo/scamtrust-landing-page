@@ -597,7 +597,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0px 12px 25px 12px;
+    margin: 0px 12px 20px 12px;
 }
 .ab-bottom-img{
     height: 80px;
@@ -609,6 +609,7 @@
     font-size: 14px;
     font-weight: 400;
     padding: 7px 5px 0px 5px;
+    text-align: center;
 }
 .ab-position{
     font-size: 14px;
