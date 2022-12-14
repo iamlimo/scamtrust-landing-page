@@ -204,6 +204,15 @@
         text-align: left;
         padding: 30px 0px 30px 30px;
     }
+    .faq-btn{
+        margin: 0px 50px;
+        font-size: 35px;
+        font-weight: 500;
+        outline: none;
+        border: none;
+        background-color: transparent;
+        color: #fff;
+    }
     
     .faq-input::placeholder{
         color: grey;
@@ -349,6 +358,16 @@
     
     .faq-input::placeholder{
         color: grey;
+    }
+
+    .faq-btn{
+        margin: 0px 30px;
+        font-size: 21px;
+        font-weight: 100;
+        outline: none;
+        border: none;
+        background-color: transparent;
+        color: #fff;
     }
     
     .faq-accordion{

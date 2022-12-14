@@ -214,8 +214,8 @@
         border: none;
         outline: none;
         padding: 50px 20px 5px 20px;
-        font-size: 18px;
-        font-weight: lighter;
+        font-size: 21px;
+        font-weight: 100;
         color: #fff;
     }
     .info-btn:focus{
