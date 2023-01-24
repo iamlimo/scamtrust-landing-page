@@ -13,10 +13,6 @@
     margin: 0px 0px 50px 0px;
 }
 .foo-news{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
     margin-top: -30px;
 }
 .news-title{
@@ -28,25 +24,41 @@
 }
 .input-div{
     display: flex;
-    align-content: flex-start;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 .news-input{
     background-color: transparent;
-    border: 1px solid #fff;
-    outline: none;
+    border: 1px solid #ffff;
+    outline-color: #5597fa;
     padding: 12px 75px 12px 25px;
     font-size: 18px;
     text-align: left;
+    color: #fff;
+}
+.foo-form-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 ::placeholder{
     color: #fff;
 }
 .news-btn{
-    font-size: 15px;
+    font-size: 37.6px;
     padding: 0px 17px 0px 17px;
     border: none;
-    font-size: 25px;
+}
+.foo-radio{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.foo-radio-item{
+    padding-right: 70px;
 }
 .news-btn:hover{
     background-color: #5597fa;
