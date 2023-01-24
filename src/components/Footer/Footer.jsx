@@ -43,15 +43,15 @@ const radioChange = (event) => {
           <p className='news-title'>Subsribe to our newsletter</p>
           <form onSubmit={handleSubmit} className="input-div">
           <div className="foo-form-top">
-          <input 
-          className='news-input' 
-          onChange={handleChange}
-          type="email" 
-          name='email'
-          value={email} 
-          placeholder='Email Address' 
-          />
-          <button type="submit" className='news-btn'><HiArrowRight /></button>
+             <input 
+             className='news-input' 
+             onChange={handleChange}
+             type="email" 
+             name='email'
+             value={email} 
+             placeholder='Email Address' 
+             />
+             <button type="submit" className='news-btn'><HiArrowRight className='foo-news-ico' /></button>
           </div>
 
             {/* R A D I O */}
@@ -94,7 +94,7 @@ const radioChange = (event) => {
         </div>
         <div className="foo-contact">
           <p className='contact-title'>Contact Us</p>
-          <p className='contact-words'>Support@scamtrust.com</p>
+          <p className='contact-words'>thescamtrust@gmail.com</p>
         </div>
     </div>
     <hr />

@@ -166,8 +166,18 @@
         justify-content: center;
         margin-top: -30px;
     }
+    .foo-radio{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 30px;
+        font-size: 17px;
+    }
+    .foo-radio-item{
+        padding-right: 50px;
+    }
     .news-title{
-        font-size: 18px;
+        font-size: 30px;
         font-weight: 600;
         width: 20vw;
         line-height: 25px;
@@ -175,9 +185,14 @@
     }
     .input-div{
         display: flex;
-        align-content: flex-start;
+        align-content: center;
         justify-content: center;
     }
+    .foo-form-top{
+        display: flex;
+        align-items: center;
+    }
+    
     .news-input{
         background-color: transparent;
         border: 1px solid #fff;
@@ -190,10 +205,11 @@
         color: #fff;
     }
     .news-btn{
-        font-size: 15px;
+        display: flex;
+        align-items: center;
+        font-size: 43px;
         padding: 0px 14px 0px 14px;
         border: none;
-        font-size: 20px;
     }
     .news-btn:hover{
         background-color: #5597fa;
@@ -310,8 +326,19 @@
     }
     .input-div{
         display: flex;
-        align-content: flex-start;
+        align-content: center;
         justify-content: center;
+    }
+
+    .foo-radio{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 30px;
+        font-size: 17px;
+    }
+    .foo-radio-item{
+        padding-right: 30px;
     }
     .news-input{
         background-color: transparent;
@@ -320,14 +347,18 @@
         padding: 12px 10px 12px 10px;
         font-size: 16px;
         text-align: left;
-        margin-top: 0px;
+        margin-top: 20px;
     }
     ::placeholder{
         color: #fff;
     }
     .news-btn{
-        font-size: 20px;
-        padding: 0px 17px 0px 17px;
+        display: flex;
+        align-items: center;
+        font-size: 43px;
+        padding: 0px 14px 0px 14px;
+        height: 44px;
+        margin-top: 19px;
         border: none;
     }
     .news-btn:hover{
