@@ -4,7 +4,7 @@ import introImg from '../../Assets/phones.png'
 import Apple from '../../Assets/Apple.png'
 import Google from '../../Assets/Google.png'
 import scan from '../../Assets/qr-code.png'
-import AndroidApk from '../../Assets/ScamTrust.apk'
+// import AndroidApk from '../../Assets/ScamTrust.apk'
 
 
 
@@ -34,7 +34,7 @@ const LandingPage = () => {
         <div className='btm-div'>        
                  {/* DOWNLOAD BUTTON */}
            <div className='dwn-div'>
-            <a className='download-link' href={AndroidApk}>
+            <a className='download-link' href="https://play.google.com/store/apps/details?id=com.scamtrust.angular" target='_blank' rel="noreferrer">
               <button className='g-btn download-btn'>
               <img src={Google} alt='...' />
               <span>
