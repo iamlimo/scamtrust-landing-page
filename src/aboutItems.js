@@ -1,22 +1,22 @@
-import img1 from '../src/Assets/img-1.png'
+import bankulee from '../src/Assets/bankulee.jpg'
+import limo from '../src/Assets/limo.jpg'
 import Fade from '../src/Assets/Fade.jpg'
 import Fisayo from '../src/Assets/Fisayo.jpg'
 import Dami from '../src/Assets/Dami.jpg'
 import Ara from '../src/Assets/Ara.jpg'
 import Michael from '../src/Assets/Michael.jpg'
 import Peace from '../src/Assets/Peace.jpeg'
-import img5 from '../src/Assets/img-5.png'
 
 const aboutItems = [
     {
         id: 1,
-        img: img1,
+        img: bankulee,
         name: "Kingsley Kennedy",
         position: `C E O`,
     },    
     {
         id: 2,
-        img: img5,
+        img: limo,
         name: "Isaac Orija",
         position: "C T O",
     },    
