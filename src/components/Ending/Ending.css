@@ -5,11 +5,12 @@
 
 .end-con{
     color: #fff;
-    padding: 50px 80px;
-    margin: 60px 0px;
+    padding: 100px 80px 50px 80px;
+    margin: 0px 0px 0px 0px;
     background-image: url("../../Assets/back-2.png");
     background-repeat: no-repeat;
     background-position: 0px 0px;
+    background-size: 100%;
     background-blend-mode: lighten;
     background-color: #353935;
 }
@@ -78,7 +79,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 40px 0px;
+    padding: 50px 0px;
 }
 .cta-title{
     font-size: 45px;

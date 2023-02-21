@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import Faq from './components/Faq/Faq';
 import Home from './components/Home';
 import About from './components/About/About';
-import logo from './Assets/loader-img.png'
+import logo from './Assets/loader-img-2.png'
 import './App.css'
 import KnowMore from './components/knowMore/KnowMore';
 
