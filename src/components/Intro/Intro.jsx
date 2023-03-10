@@ -65,7 +65,7 @@ const Intro = () => {
                     <span style={{color: '#5597fa'}}> ScamTrust</span>
                 </p>
                 <p className='btm-words'>
-                We are here to bridge the gap between financial transactions. Your Financial security is our priority.  Enjoy a safe and verify free transaction.
+                We are here to bridge the gap between financial transactions. Your Financial security is our priority. Enjoy safe, free and verified transactions.
                 </p>
                 <Link className='point-link' to="/know-more">Learn more</Link>
             </div>

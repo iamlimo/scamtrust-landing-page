@@ -10,7 +10,7 @@
     background-image: url("../../Assets/back-2.png");
     background-repeat: no-repeat;
     background-position: 0px 0px;
-    background-size: 100%;
+    background-size: cover;
     background-blend-mode: lighten;
     background-color: #353935;
 }
@@ -115,7 +115,16 @@
 
     .end-con{
         color: #fff;
-        padding: 20px 40px;
+        /* padding: 100px 80px 50px 80px;
+        margin: 0px 0px 0px 0px; */
+        background-image: url("../../Assets/back-2.png");
+        background-repeat: no-repeat;
+        background-position: 0px 0px;
+        background-size: cover;
+        background-blend-mode: lighten;
+        background-color: #353935;
+        color: #fff;
+        padding: 20px 60px;
         margin: 60px 0px;
         /* background-image: url("../../Assets/back-2.png");
         background-repeat: no-repeat;

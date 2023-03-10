@@ -11,7 +11,7 @@ export const item = [
         id: 2,
         img: itemImg,
         title: "Transparency",
-        words: "Provides transaction transparency between vendors and customers"
+        words: "Provides transaction transparency between vendors and customers."
     },
     {
         id: 3,
